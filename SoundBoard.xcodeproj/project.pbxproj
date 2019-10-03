@@ -13,6 +13,7 @@
 		9E79676B234652850008FF15 /* SoundBoard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9E796769234652850008FF15 /* SoundBoard.xcdatamodeld */; };
 		9E79676D234652870008FF15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E79676C234652870008FF15 /* Assets.xcassets */; };
 		9E796770234652870008FF15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E79676E234652870008FF15 /* LaunchScreen.storyboard */; };
+		9E79677823465B340008FF15 /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E79677723465B340008FF15 /* SoundViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		9E79676C234652870008FF15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E79676F234652870008FF15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E796771234652870008FF15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E79677723465B340008FF15 /* SoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
+		9E79677A23465D260008FF15 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +45,7 @@
 			children = (
 				9E796761234652850008FF15 /* SoundBoard */,
 				9E796760234652850008FF15 /* Products */,
+				9E79677923465D260008FF15 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				9E796762234652850008FF15 /* AppDelegate.swift */,
+				9E79677723465B340008FF15 /* SoundViewController.swift */,
 				9E796764234652850008FF15 /* ViewController.swift */,
 				9E796766234652850008FF15 /* Main.storyboard */,
 				9E79676C234652870008FF15 /* Assets.xcassets */,
@@ -65,6 +70,14 @@
 				9E796769234652850008FF15 /* SoundBoard.xcdatamodeld */,
 			);
 			path = SoundBoard;
+			sourceTree = "<group>";
+		};
+		9E79677923465D260008FF15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E79677A23465D260008FF15 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E79677823465B340008FF15 /* SoundViewController.swift in Sources */,
 				9E79676B234652850008FF15 /* SoundBoard.xcdatamodeld in Sources */,
 				9E796765234652850008FF15 /* ViewController.swift in Sources */,
 				9E796763234652850008FF15 /* AppDelegate.swift in Sources */,
